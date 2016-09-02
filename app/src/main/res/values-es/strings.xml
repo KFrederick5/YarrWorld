@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yarr Mundo</string>
+    <string name="toast_text">¡Yarr Mundo!</string>
+    <string name="button_text">TIEMBLA LAS MADERAS</string>
+    <string name="welcome_text">¡Recepción a los perros del escorbuto del ya del barco!</string>
+    <string name="image_text">Pirata de OCC</string>
+</resources>

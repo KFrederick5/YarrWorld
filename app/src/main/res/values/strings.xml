@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Yarr World</string>
+    <string name="welcome_text">Welcome to the boat ya scurvy dogs!</string>
+    <string name="button_text">SHIVER ME TIMBERS</string>
+    <string name="toast_text">Yarr World!</string>
+    <string name="image_text">OCC Pirate</string>
 </resources>
