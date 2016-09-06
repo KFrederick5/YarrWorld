@@ -6,6 +6,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+/**
+ * An OCC greeting with a button that when clicked
+ * says hello.
+ */
 public class   MainActivity extends AppCompatActivity {
 
     private Button speakButton;
@@ -15,14 +19,19 @@ public class   MainActivity extends AppCompatActivity {
 
         //Remembers where the user last left off
         super.onCreate(savedInstanceState);
-
         //Inflated (!) view on startup which is activity_main.xml
         setContentView(R.layout.activity_main);
 
-        //Referencing the button widget.
+        /**
+         * Links the speakButton in the view to a java button.
+         */
+        //Hooks the speakButton to the one in our view
         speakButton = (Button) findViewById(R.id.speakButton);
 
-        //Listener waiting for user interaction
+        /**
+         * Action call for the button to display the event toast
+         */
+        //Listener waiting for user interaction with the speakButton
         speakButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
