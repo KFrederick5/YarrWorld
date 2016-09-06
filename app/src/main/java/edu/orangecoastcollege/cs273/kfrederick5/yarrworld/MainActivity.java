@@ -19,7 +19,7 @@ public class   MainActivity extends AppCompatActivity {
         //Inflated (!) view on startup which is activity_main.xml
         setContentView(R.layout.activity_main);
 
-        //Referencing the button widget
+        //Referencing the button widget.
         speakButton = (Button) findViewById(R.id.speakButton);
 
         //Listener waiting for user interaction
