@@ -20,7 +20,7 @@
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="@color/occBlue"
         android:layout_weight="1" />

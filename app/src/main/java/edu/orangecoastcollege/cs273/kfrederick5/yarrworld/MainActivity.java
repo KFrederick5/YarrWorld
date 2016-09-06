@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class   MainActivity extends AppCompatActivity {
 
     private Button speakButton;
 
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         speakButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, R.string.toast_text, Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, R.string.toast_text, Toast.LENGTH_SHORT).show();
             }
         });
     }
